@@ -45,7 +45,11 @@ namespace encyption
             textBox2.Text = "";
             textBox2.Text= Encrypt(EncryptKeys.EnKey0, textBox1.Text);
            MessageBox.Show("Hello World");
+<<<<<<< HEAD
             MessageBox.Show("payment");
+=======
+            MessageBox.Show("Login");
+>>>>>>> e8424483853c56155dc688fdae8dda0e45dd227f
         }
         public string Decrypt(EncryptKeys Number, string EncryptedPassword)
         {
