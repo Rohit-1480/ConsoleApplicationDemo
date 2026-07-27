@@ -44,6 +44,7 @@ namespace encyption
         {
             textBox2.Text = "";
             textBox2.Text= Encrypt(EncryptKeys.EnKey0, textBox1.Text);
+           MessageBox.Show("Hello World");
         }
         public string Decrypt(EncryptKeys Number, string EncryptedPassword)
         {
